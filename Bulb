@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>灯泡</h1>
+    <img src="../picture/th (1).jpg" id="img1">
+    <input type="button" id="but1" value="on" onclick="on()">
+    <input type="button" id="but2" value="off" onclick="off()">
+
+    <script>
+        function on(){
+            document.getElementById("img1").src = "../picture/th.jpg";
+        }
+        function off(){
+            document.getElementById("img1").src = "../picture/th (1).jpg";
+        }
+
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS入门</title>
+    <style>
+        div a{
+            background-color: orange;
+            display: inline-block;
+            width: 125px;
+            height: 40px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 40px;
+        }
+        div{
+            background-color: gray;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>让创作产生价值</h1>
+        <p>我们希望小程序可以提供无限可能性</p>
+        <a href="#">我要报名</a>
+    </div>
+    
+</body>
+</html>
